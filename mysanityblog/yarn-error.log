@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Feroz\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Feroz\AppData\Local\Microsoft\WindowsApps;C:\Users\Feroz\AppData\Roaming\npm;C:\ Program Files\ nodejs;C:\Program Files (x86)\GitHub CLI\;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 12656:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "mysanityblog",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Kapehe Jorgenson <kapehe@sanity.io>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.21.9",
+      "@sanity/components": "^2.14.0",
+      "@sanity/core": "^2.21.8",
+      "@sanity/default-layout": "^2.21.9",
+      "@sanity/default-login": "^2.21.9",
+      "@sanity/desk-tool": "^2.21.9",
+      "@sanity/vision": "^2.21.9",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
