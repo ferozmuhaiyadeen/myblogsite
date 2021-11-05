@@ -37,13 +37,13 @@ export default function OnePost() {
   if (!postData) return <div>Loading...</div>;
 
   return (
-    <div className="bg-gray-200 min-h-screen p-12">
+    <div className="bg-gray-200 min-h-screen p-12 max-w-full">
       <div className="container shadow-lg mx-auto bg-green-100 rounded-lg">
         <div className="relative">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
             <div className="bg-white bg-opacity-75 rounded p-12">
-              <h2 className="cursive text-3xl lg:text-6xl mb-4">
+              <h2 className="cursive text-5xl lg:text-6xl mb-4">
                 {postData.title}
               </h2>
               <div className="flex justify-center text-gray-800">
